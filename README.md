@@ -1,11 +1,20 @@
 This is my first React project made for learning purpose.
 This React application allows users to manage their contacts, providing functionalities to add, display, and remove contacts, with persistent storage.
+
+Functionalities
+
 Users can add new contacts by entering their name and email address in the input fields provided. The "AddContact" component is used for this purpose which also ensures that no empty field is submitted.
+
 I have used browser's local storage to store conatct data.
+
 Differnt react Hooks are used.
+
 "useState" hook is used to synchronized changes in contact list with loacl storage
+
 Each contact is assigned a unique identifier generated using the uuid library.
+
 Users can delete contact by clicking the delete icon.
+
 The removeContact function filters out the contact with the specified ID and updates the contact list.
 
 # React + Vite
