@@ -1,0 +1,212 @@
+.App{
+  text-align: center;
+
+
+  
+}
+  
+
+
+.body{
+  background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );
+
+
+
+margin-top: 2px;
+overflow: hidden;
+
+height:100vh;
+width:99vw;
+
+}
+  
+
+
+.head{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,37,78,1) 0%, rgba(4,56,126,1) 19.7%, rgba(85,245,221,1) 100.2% );
+    text-align: center;
+  color: black;
+  
+
+}
+.addBut{
+  border-radius: 2px;
+  background-color: blue;
+  size: 30px;
+
+
+
+}
+
+.AddContact{
+  margin-left:10px;
+  font-size: larger;
+  width: 100%;
+  overflow: hidden;
+}
+/* .List{
+
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+background-color: blueviolet;
+
+
+
+border: 2px solid red;
+align-self: flex-end;
+
+
+} */
+
+.contactTop{
+  display: flex;
+justify-content:space-between;
+flex-direction:row;
+align-items:center;
+padding-bottom: 2px;
+background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+height: fit-content;
+
+
+
+
+border: 2px solid red;
+
+
+}
+
+.List
+{
+  justify-content:space-evenly;
+  align-items: center;
+  width:80%vw;
+  
+  
+}
+
+#del{
+  justify-content:space-between;
+}
+
+.AddContact{
+  box-sizing: border-box;
+  font-size: medium;
+  border: 2px solid black;
+  font-size:xx-large;
+  width:300px;
+  justify-content: center;
+  text-align: center;
+  background-color:black;
+  background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+}
+
+.nE{
+  font-size: larger;
+  color: black;
+  margin-left: 5px;
+  font-size:x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+
+}
+
+.name{
+
+  height:30px;
+  color:white;
+  width:250px;
+  background-color:black;
+
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.email{
+  height:30px;
+  width:250px;
+  color:black;
+  font-size:large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.del{
+  background-color: #fff;
+  color: #fff;
+}
+
+
+/* CSS */
+.button-71 {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight:300px;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top:20px;
+  margin-left: 10px;
+  size: 30px;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#ffffffc4 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 100px;
+  content: "";
+  height: 20%;
+  left: 8%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 50%;
+  
+}
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 2, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width:300px) {
+  .button-71 {
+    padding: 10px 21px;
+  }
+}
+
+
+.conList{
+
+  margin-top: 10px;
+  font-size: larger;
+
+}
+
+.con{
+  font-size: xx-large;
+  color: black;
+
+  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .Add{
+  display: flex;
+  flex: content;
+  flex-direction: column;
+} */
