@@ -7,9 +7,9 @@ Users can add new contacts by entering their name and email address in the input
 
 I have used browser's local storage to store conatct data.
 
-Differnt react Hooks are used.
+Different react Hooks are used.
 
-"useState" hook is used to synchronized changes in contact list with loacl storage
+"useState" hook is used to synchronized changes in contact list with local storage
 
 Each contact is assigned a unique identifier generated using the uuid library.
 
